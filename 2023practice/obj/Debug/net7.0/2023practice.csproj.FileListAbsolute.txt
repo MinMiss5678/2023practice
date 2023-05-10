@@ -1,0 +1,15 @@
+D:\Users\user\Documents\GitHub\2023practice\2023practice\bin\Debug\net7.0\2023practice.exe
+D:\Users\user\Documents\GitHub\2023practice\2023practice\bin\Debug\net7.0\2023practice.deps.json
+D:\Users\user\Documents\GitHub\2023practice\2023practice\bin\Debug\net7.0\2023practice.runtimeconfig.json
+D:\Users\user\Documents\GitHub\2023practice\2023practice\bin\Debug\net7.0\2023practice.dll
+D:\Users\user\Documents\GitHub\2023practice\2023practice\bin\Debug\net7.0\2023practice.pdb
+D:\Users\user\Documents\GitHub\2023practice\2023practice\obj\Debug\net7.0\2023practice.csproj.AssemblyReference.cache
+D:\Users\user\Documents\GitHub\2023practice\2023practice\obj\Debug\net7.0\2023practice.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\user\Documents\GitHub\2023practice\2023practice\obj\Debug\net7.0\2023practice.AssemblyInfoInputs.cache
+D:\Users\user\Documents\GitHub\2023practice\2023practice\obj\Debug\net7.0\2023practice.AssemblyInfo.cs
+D:\Users\user\Documents\GitHub\2023practice\2023practice\obj\Debug\net7.0\2023practice.csproj.CoreCompileInputs.cache
+D:\Users\user\Documents\GitHub\2023practice\2023practice\obj\Debug\net7.0\2023practice.dll
+D:\Users\user\Documents\GitHub\2023practice\2023practice\obj\Debug\net7.0\refint\2023practice.dll
+D:\Users\user\Documents\GitHub\2023practice\2023practice\obj\Debug\net7.0\2023practice.pdb
+D:\Users\user\Documents\GitHub\2023practice\2023practice\obj\Debug\net7.0\2023practice.genruntimeconfig.cache
+D:\Users\user\Documents\GitHub\2023practice\2023practice\obj\Debug\net7.0\ref\2023practice.dll
