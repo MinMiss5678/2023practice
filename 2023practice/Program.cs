@@ -11,30 +11,12 @@ namespace ConsoleApp1
     {
         static public void Main()
         {
-            var generic = typeof(TEST2);
-            var genericAttributes = generic.GetCustomAttributes(false);
-            foreach (var genericAttribute in genericAttributes)
-            {
-                if (genericAttribute is GenericAttribute<string>)
-                {
-                    Console.WriteLine(((GenericAttribute<string>)genericAttribute).TypeId);
-                }
-            }
+         
         }
 
-        private void TypeAttribute()
-        {
-            var type = typeof(TEST);
-            var typeAttributes = type.GetCustomAttributes(false);
+       
 
-            foreach (var typeAttribute in typeAttributes)
-            {
-                if (typeAttribute is TypeAttribute)
-                {
-                    Console.WriteLine(((TypeAttribute)typeAttribute).ParamType.Name);
-                }
-            }
-        }
+       
     }
 
     static public class ValueFormat
