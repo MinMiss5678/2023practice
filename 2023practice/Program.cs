@@ -14,9 +14,40 @@ namespace ConsoleApp1
         {
 
         }
+
+        public enum Stages
+        {
+            提案,
+            審核,
+            執行,
+            驗收,
+            結案
+        }
         static public void Main()
         {
+            string s = "MCMXCIV";
+            RomanToInt romanToInt = new RomanToInt();
+            Console.WriteLine(romanToInt.RomanToInt1(s));
+        }
 
+        public static int MinInsertions(string s)
+        {
+            string[] strArray = s.Split("())");
+            while (strArray.Length > 1)
+            {
+                string str = "";
+                foreach (var item in strArray)
+                {
+                    str += item;
+                }
+                strArray = s.Split("())");
+            }
+            int count1 = strArray[0].Where(x => x == '(').Count();
+            int count2 = strArray[0].Where(x => x == ')').Count();
+            int answer = count1 * 2 + count2;
+            return answer;
+
+            return 0;
         }
     }
 
