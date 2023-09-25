@@ -8,7 +8,7 @@ namespace _2023practice
 {
     internal class TwoSum
     {
-        static public int[] TwoSum1(int[] nums, int target)
+        public static int[] TwoSum1(int[] nums, int target)
         {
             for (int i = 0; i < nums.Length - 1; i++)
             {
@@ -24,7 +24,7 @@ namespace _2023practice
             return Array.Empty<int>();
         }
 
-        static public int[] TwoSum2(int[] nums, int target)
+        public static int[] TwoSum2(int[] nums, int target)
         {
             var pairs = new Dictionary<int, int>();
             for (int i = 0; i < nums.Length; i++)

@@ -12,7 +12,6 @@ namespace ConsoleApp1
     {
         public interface INumber<TSelf> : IComparable
         {
-
         }
 
         public enum Stages
@@ -23,11 +22,11 @@ namespace ConsoleApp1
             驗收,
             結案
         }
-        static public void Main()
+
+        public static void Main()
         {
-            string s = "MCMXCIV";
-            RomanToInt romanToInt = new RomanToInt();
-            Console.WriteLine(romanToInt.RomanToInt1(s));
+            var x = PalindromeNumber.IsPalindrome(12321);
+            Console.WriteLine(x ? "true" : "false");
         }
 
         public static int MinInsertions(string s)
@@ -40,8 +39,10 @@ namespace ConsoleApp1
                 {
                     str += item;
                 }
+
                 strArray = s.Split("())");
             }
+
             int count1 = strArray[0].Where(x => x == '(').Count();
             int count2 = strArray[0].Where(x => x == ')').Count();
             int answer = count1 * 2 + count2;
