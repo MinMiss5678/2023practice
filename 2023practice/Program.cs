@@ -25,8 +25,6 @@ namespace ConsoleApp1
 
         public static void Main()
         {
-            var x = PalindromeNumber.IsPalindrome(12321);
-            Console.WriteLine(x ? "true" : "false");
         }
 
         public static int MinInsertions(string s)
